@@ -6,5 +6,28 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'Omnitech Skills Matrix';
 }
+
+
+
+/* Goals:
+
+- Use observable services for data ownership
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+

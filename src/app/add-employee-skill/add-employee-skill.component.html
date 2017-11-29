@@ -1,0 +1,16 @@
+<div class="form-group"><label>Employee:</label> {{employee?.FirstName}} {{employee?.LastName}}</div>
+
+<div class="form-group"><label>Skill:</label>    {{skill?.Name}}</div>
+
+<div class="form-group"><label>Proficiency: </label>
+  <select [(ngModel)]="proficiency" class="proficiencySelect" >
+    <option value=0>0 - None</option>
+    <option value=1>1 - Some exposure</option>
+    <option value=2>2 - Fairly competant</option>
+    <option value=3>3 - Expert</option>
+  </select>
+</div>
+
+<div class="form-group">
+  <button type="submit" (click)="onSaveClicked()" class="button save">Save</button>
+</div>

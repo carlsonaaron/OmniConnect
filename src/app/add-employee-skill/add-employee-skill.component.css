@@ -1,0 +1,26 @@
+.form-group {
+    padding: 5px 20px;
+    margin-left:15px;
+}
+
+.button {    
+    margin:10px auto;
+    width:80px;
+    height:30px;
+    cursor: pointer;
+}
+
+.button.save{
+    background-color: #cfcfcf;
+    border: 1px solid #bbb;    
+}
+.button.save:hover,
+.button.save:focus {
+    background-color:#ddd;
+    border:1px solid #ccc;
+}
+
+.button.save:active {
+    background-color:#bbb;
+    border:1px solid #ccc;
+}

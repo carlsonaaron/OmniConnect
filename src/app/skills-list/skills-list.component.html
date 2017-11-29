@@ -1,0 +1,6 @@
+<div *ngIf="selectedSkill" class="displaySelected">
+        <label>Selected Skill:</label>
+        <div class="skill">{{selectedSkill.Name}}</div>
+    </div>
+
+<div *ngFor="let skill of $skills | async" class="name" (click)="onClick(skill)">{{skill.Name}}</div>

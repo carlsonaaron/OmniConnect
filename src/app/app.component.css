@@ -1,0 +1,17 @@
+section {
+  width: auto;
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 10px;
+  margin: auto 10px;
+}
+
+section .title {
+  font-size: 1.4em;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  text-decoration: underline;
+}

@@ -1,0 +1,7 @@
+<div *ngIf="selectedEmployee" class="displaySelected">
+    <label>Selected Employee:</label>
+    <div>{{selectedEmployee.FirstName}} {{selectedEmployee.LastName}}</div>
+</div>
+
+<div *ngFor="let employee of employees" (click)="onClick(employee)" class="name">{{employee.FirstName}} {{employee.LastName}}</div>
+
